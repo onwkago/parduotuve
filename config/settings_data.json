@@ -1,20 +1,20 @@
 {
   "current": {
     "logo_width": 70,
-    "colors_solid_button_labels": "#FDFBF7",
+    "colors_solid_button_labels": "#FAF7F2",
     "colors_accent_1": "#9B046F",
     "gradient_accent_1": "",
     "colors_accent_2": "#5E3653",
     "gradient_accent_2": "linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(94, 54, 83, 1) 100%)",
-    "colors_text": "#2E2A39",
+    "colors_text": "{{ shop.brand.colors.secondary[1].background }}",
     "colors_outline_button_labels": "#2E2A39",
     "colors_background_1": "{{ shop.brand.colors.secondary[0].background }}",
-    "gradient_background_1": "linear-gradient(180deg, rgba(255, 255, 255, 1) 70%, rgba(89, 89, 89, 1) 100%)",
+    "gradient_background_1": "",
     "colors_background_2": "{{ shop.brand.colors.primary[1].background }}",
     "gradient_background_2": "",
-    "type_header_font": "harmonia_sans_n6",
+    "type_header_font": "karla_n4",
     "heading_scale": 130,
-    "type_body_font": "harmonia_sans_n4",
+    "type_body_font": "karla_n4",
     "body_scale": 100,
     "page_width": 1200,
     "spacing_sections": 36,
@@ -287,5 +287,10 @@
         }
       }
     }
+  },
+  "platform_customizations": {
+    "custom_css": [
+
+    ]
   }
 }
