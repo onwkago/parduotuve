@@ -8,7 +8,7 @@
     "gradient_accent_2": "linear-gradient(320deg, rgba(134, 16, 106, 1), rgba(94, 54, 83, 1) 100%)",
     "colors_text": "{{ shop.brand.colors.secondary[1].background }}",
     "colors_outline_button_labels": "#2E2A39",
-    "colors_background_1": "{{ shop.brand.colors.secondary[0].background }}",
+    "colors_background_1": "#d1cfbc",
     "gradient_background_1": "",
     "colors_background_2": "{{ shop.brand.colors.primary[1].background }}",
     "gradient_background_2": "",

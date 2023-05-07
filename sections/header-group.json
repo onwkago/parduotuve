@@ -2,7 +2,6 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
-
     "header": {
       "type": "header",
       "settings": {
@@ -11,7 +10,7 @@
         "menu_type_desktop": "dropdown",
         "sticky_header_type": "on-scroll-up",
         "show_line_separator": false,
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "enable_country_selector": false,
         "enable_language_selector": false,
         "mobile_logo_position": "center",
@@ -26,7 +25,7 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "5 metų garantija! | nemokamas pristatymas! | nemokamas grąžinimas per 30 dienų! ",
+            "text": "5 metų garantija! | nemokamas pristatymas! | nemokamas grąžinimas per 30 dienų!",
             "text_alignment": "center",
             "color_scheme": "inverse",
             "link": ""
@@ -36,7 +35,8 @@
       "block_order": [
         "announcement-bar-0"
       ],
-      "settings": {}
+      "settings": {
+      }
     }
   },
   "order": [
