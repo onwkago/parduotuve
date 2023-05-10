@@ -23,6 +23,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/river_guy.png",
         "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
