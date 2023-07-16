@@ -62,9 +62,11 @@
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
       <div class="basic_parallax"></div>
-      {%- for item  in images-%}
-            <div>{{ item }}</div>
-      {%- endfor -%}
+
+            <div>{{ section }}</div>
+            <div>{{ section.settings.image }}</div>
+            <div>{{ section.settings }}</div>
+
     </div>
   {%- elsif section.settings.image_2 == blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
