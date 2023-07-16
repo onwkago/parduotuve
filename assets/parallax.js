@@ -7,6 +7,7 @@ Array.prototype.forEach.call(imgElements, function(img) {
 
     // Define the parallaxImg function
     function parallaxImg() {
+        console.info('kibiras');
         var speed = img.getAttribute('data-speed');
         var imgY = imgParent.offsetTop;
         var winY = window.scrollY || window.pageYOffset;
