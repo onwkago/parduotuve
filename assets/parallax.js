@@ -23,7 +23,7 @@ Array.prototype.forEach.call(imgElements, function(img) {
         }
 
         img.style.top = imgPercent + '%' ;
-        img.style.transform = 'translate(-50%, -' + imgPercent + '%)';
+        img.style.transform = 'translate(0, -' + imgPercent + '%)';
     }
 
     // Attach event listeners to scroll and DOM ready events
