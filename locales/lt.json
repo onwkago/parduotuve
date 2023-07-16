@@ -1132,5 +1132,150 @@
       "email_label_optional": "Gavėjo el. pašto adresas (neprivaloma)",
       "email": "El. paštas"
     }
+  },
+  "sections": {
+    "featured_blog": {
+      "view_all": "Peržiūrėti visus",
+      "onboarding_title": "Tinklaraščio straipsnis",
+      "onboarding_content": "Pateikite klientams savo tinklaraščio įrašo santrauką"
+    },
+    "featured_collection": {
+      "view_all": "Peržiūrėti visus",
+      "view_all_label": "Peržiūrėkite visus kolekcijos {{ collection_name }} produktus"
+    },
+    "collection_list": {
+      "view_all": "Peržiūrėti visus"
+    },
+    "collection_template": {
+      "empty": "Produktų nerasta",
+      "title": "Kolekcija",
+      "use_fewer_filters_html": "Naudokite mažiau filtrų arba <a class=\"&lt;span class='notranslate'&gt;{{ class }}&lt;\/span&gt;\" href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">pašalinkite visus<\/a>"
+    },
+    "video": {
+      "load_video": "Įkelti vaizdo įrašą: {{ description }}"
+    },
+    "slideshow": {
+      "load_slide": "Įkelti skaidrę",
+      "previous_slideshow": "Ankstesnė skaidrė",
+      "next_slideshow": "Kita skaidrė",
+      "pause_slideshow": "Pristabdyti skaidrių demonstraciją",
+      "play_slideshow": "Leisti skaidrių demonstraciją",
+      "carousel": "Karuselė",
+      "slide": "Skaidrė"
+    },
+    "page": {
+      "title": "Puslapio pavadinimas"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "Prisijunkite naudodami slaptažodį:",
+      "login_password_button": "Įveskite naudodami slaptažodį",
+      "login_form_password_label": "Slaptažodis",
+      "login_form_password_placeholder": "Jūsų slaptažodis",
+      "login_form_error": "Neteisingas slaptažodis!",
+      "login_form_submit": "Įeikite",
+      "admin_link_html": "Ar esate parduotuvės savininkas? <a href=\"\/admin\" class=\"link underlined-link\">Prisijunkite čia<\/a>",
+      "powered_by_shopify_html": "Šią parduotuvę valdys {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "Dalintis Facebook",
+        "share_on_twitter": "Paskelbkite Twitter tinkle",
+        "share_on_pinterest": "Prisegti prie Pinterest"
+      },
+      "links": {
+        "instagram": "Instagramas",
+        "tiktok": "Tik tak"
+      }
+    },
+    "continue_shopping": "Tęsti apsipirkimą",
+    "pagination": {
+      "label": "Puslapių rašymas",
+      "page": "Puslapis {{ number }}",
+      "next": "Kitas puslapis",
+      "previous": "Ankstesnis puslapis"
+    },
+    "search": {
+      "search": "Paieška",
+      "reset": "Išvalyti paieškos terminą"
+    },
+    "cart": {
+      "view": "Žiūrėti krepšelį ( {{ count }} )",
+      "view_empty_cart": "Peržiūrėti krepšelį",
+      "item_added": "Prekė įdėta į krepšelį"
+    },
+    "share": {
+      "close": "Uždaryti bendrinimą",
+      "copy_to_clipboard": "Nukopijuoti nuorodą",
+      "share_url": "Nuoroda",
+      "success_message": "Nuoroda nukopijuota į mainų sritį"
+    },
+    "slider": {
+      "of": "apie",
+      "next_slide": "Slyskite į dešinę",
+      "previous_slide": "Slyskite į kairę",
+      "name": "Slankiklis"
+    }
+  },
+  "newsletter": {
+    "label": "El. paštas",
+    "success": "Ačiū, kad užsiprenumeravote",
+    "button_label": "Prenumeruoti"
+  },
+  "accessibility": {
+    "skip_to_text": "Pereiti prie turinio",
+    "skip_to_product_info": "Pereiti prie produkto informacijos",
+    "close": "Uždaryti",
+    "vendor": "Pardavėjas:",
+    "error": "Klaida",
+    "refresh_page": "Pasirinkus pasirinkimą bus atnaujintas visas puslapis.",
+    "link_messages": {
+      "new_window": "Atsidaro naujame lange.",
+      "external": "Atidaro išorinę svetainę."
+    },
+    "loading": "Įkeliama...",
+    "total_reviews": "viso atsiliepimų",
+    "star_reviews_info": "{{ rating_value }} iš {{ rating_max }} žvaigždučių",
+    "collapsible_content_title": "Sutraukiamas turinys",
+    "complementary_products": "Papildomi produktai"
+  },
+  "blogs": {
+    "article": {
+      "blog": "Dienoraštis",
+      "read_more_title": "Skaityti daugiau: {{ title }}",
+      "comments": {
+        "one": "{{ count }} komentaras",
+        "other": "{{ count }} komentarų"
+      },
+      "moderated": "Atminkite, kad komentarai turi būti patvirtinti prieš juos paskelbiant.",
+      "comment_form_title": "Palikite komentarą",
+      "name": "vardas",
+      "email": "El. paštas",
+      "message": "komentuoti",
+      "post": "Paskelbti komentarą",
+      "back_to_blog": "Grįžti į tinklaraštį",
+      "share": "Pasidalinkite šiuo straipsniu",
+      "success": "Jūsų komentaras sėkmingai paskelbtas! Ačiū!",
+      "success_moderated": "Jūsų komentaras sėkmingai paskelbtas. Po kurio laiko paskelbsime, nes mūsų tinklaraštis moderuojamas."
+    }
+  },
+  "onboarding": {
+    "product_title": "Produkto pavadinimo pavyzdys",
+    "collection_title": "Jūsų kolekcijos pavadinimas"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Į krepšelį",
+      "choose_options": "Pasirinkite parinktis",
+      "choose_product_options": "Pasirinkite {{ product_name }} parinktis",
+      "description": "apibūdinimas",
+      "inventory_in_stock": "Prekyboje",
+      "inventory_in_stock_show_count": "{{ quantity }} sandėlyje",
+      "inventory_low_stock": "Mažos atsargos",
+      "inventory_low_stock_show_count": "Mažai atsargų: liko {{ quantity }}",
+      "inventory_out_of_stock": "Išparduota",
+      "inventory_out_of_stock_continue_selling": "Prekyboje"
+    }
   }
 }
