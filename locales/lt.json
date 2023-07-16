@@ -576,6 +576,160 @@
         "payment_method_draft_order": "Terminas po užsakymo peržiūros",
         "choose_payment_method_later": "Mokėjimo būdą pasirinkite vėliau"
       }
+    },
+    "errors": {
+      "expired": "baigėsi",
+      "invalid_start_date_or_issue_number_for_debit": "reikalinga galiojanti pradžios data arba išdavimo numeris",
+      "invalid_expiry_year": "nėra galiojantys galiojimo metai",
+      "reset_password_html": "Šis el. pašto adresas jau susietas su paskyra. Jei ši paskyra priklauso jums, galite <a href=\"\/account\/login#recover\">iš naujo nustatyti slaptažodį<\/a>",
+      "verify_email": "Išsiuntėme el. laišką adresu %{customer_email}, spustelėkite pateiktą nuorodą, kad patvirtintumėte savo el. pašto adresą.",
+      "product_not_available": "produktas nėra paskelbtas šiam klientui."
+    },
+    "notices": {
+      "customer": {
+        "password_reset_error": "Slaptažodžio nustatymo iš naujo klaida",
+        "no_account_found": "Nerasta jokia paskyra su šiuo el. paštu.",
+        "invalid_credentials": "Neteisingas el.paštas arba slaptažodis.",
+        "denylisted_reset_password": "Nepavyko pasiekti jūsų paskyros, nes dabartinis slaptažodis nėra saugus. Jūs gausite el. laišką, kad atnaujintumėte slaptažodį."
+      },
+      "address": {
+        "updated": "Adresas sėkmingai atnaujintas.",
+        "error_updating": "Klaida atnaujinant adresą",
+        "created": "Adresas sėkmingai sukurtas",
+        "error_creating": "Klaida kuriant adresą.",
+        "deleted": "Adresas sėkmingai ištrintas",
+        "error_deleting": "Klaida ištrinant adresą."
+      },
+      "order": {
+        "not_available": "Šis užsakymas nepasiekiamas",
+        "financial_status": {
+          "authorized": "Įgaliotas",
+          "pending": "Kol",
+          "paid": "Mokama",
+          "unpaid": "Neapmokėta",
+          "voided": "Anuliuota",
+          "partially_paid": "Iš dalies apmokėta",
+          "partially_refunded": "Iš dalies grąžinta",
+          "refunded": "Grąžinta",
+          "expired": "Baigėsi galiojimo laikas"
+        },
+        "fulfillment_status": {
+          "fulfilled": "Įvykdė",
+          "complete": "Užbaigti",
+          "partial": "Dalinis",
+          "unfulfilled": "Neįvykdytas",
+          "restocked": "Atnaujinta"
+        },
+        "transaction_status": {
+          "success": "Sėkmė",
+          "pending": "Kol",
+          "failure": "Nesėkmė",
+          "error": "Klaida"
+        },
+        "cancel_reason": {
+          "declined": "Mokėjimas atmestas",
+          "inventory": "Elementai nepasiekiami",
+          "fraud": "Apgaulinga tvarka",
+          "customer": "Klientas pakeitė\/atšaukė užsakymą",
+          "staff": "Personalo klaida",
+          "other": "Kita"
+        },
+        "cash_on_delivery": "Grynieji pristatymo metu (COD)"
+      },
+      "cart": {
+        "only_n_items_available": "Į krepšelį galite pridėti tik %{count} %{name}.",
+        "too_many_items_in_cart": "Negalite pridėti daugiau %{name} į krepšelį.",
+        "less_than_minimum": "Šis elementas turi mažiausiai %{min}.",
+        "more_than_maximum": "Šis elementas turi didžiausią %{max}.",
+        "not_respect_step": "Šį elementą galite pridėti tik %{step} kartotiniais.",
+        "all_items_in_cart": "Visi %{count} %{name} yra jūsų krepšelyje.",
+        "empty_update": "negali atnaujinti tuščio krepšelio",
+        "missing_parameters": "nėra galiojančio ID arba eilutės parametro",
+        "generic_error": "Krepšelio klaida",
+        "product_not_available": "Prekės nėra",
+        "too_many_line_items_error": "Jūsų krepšelyje negali būti daugiau nei %{max} prekių.",
+        "link_expired": "Nuorodos galiojimo laikas baigėsi",
+        "link_no_longer_exists": "Nuorodos nebėra.",
+        "stock_problems_html": "Vienas ar keli elementai nebepasiekiami. Pateikėme <a href=\"%{link}\">atnaujintą krepšelį<\/a> .",
+        "changed": "Krepšelis pakeistas",
+        "items_changed": "Pasikeitė vienas ar keli elementai.",
+        "product_sold_out": "Produktas „%{name}“ jau išparduotas.",
+        "variant_not_found": "Nepavyko rasti varianto",
+        "variant_requires_selling_plan": "Variantą galima įsigyti tik su pardavimo planu.",
+        "selling_plan_not_available_for_company_locations": "B2B užsakymams galima įsigyti tik vieną kartą",
+        "digital_product_not_available_for_company_locations": "Šios prekės negalima pridėti prie B2B užsakymo",
+        "selling_plan_not_applicable": "Neįmanoma pritaikyti pardavimo plano variantui",
+        "shipping_address_not_required": "Šis krepšelis nereikalauja siuntimo",
+        "shipping_address_invalid": "Apskaičiuojant siuntimo įkainius kilo problema. Tęskite atsiskaitymą, kad pasirinktumėte pristatymo tarifą prieš užbaigdami užsakymą.",
+        "bundle_requires_components": "Produkto paketo „%{name}“ negalima pridėti į krepšelį.",
+        "gift_card_with_components_not_supported": "Produkto paketo „%{name}“ negalima pridėti į krepšelį."
+      },
+      "storefront": {
+        "invalid_password": "Slaptažodis neteisingas, bandykite dar kartą."
+      },
+      "tags": {
+        "add_articles": "Susiaurinkite paiešką iki straipsnių su žyma %{tag}",
+        "add_products": "Siauras pasirinkimas iki produktų, atitinkančių žymą %{tag}",
+        "remove_articles": "Išplėskite paiešką iki straipsnių, kurie nėra pažymėti %{tag}",
+        "remove_products": "Pašalinti žymą %{tag}"
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "Dėkojame, kad užsiprenumeravote mūsų adresų sąrašą.",
+        "disclaimer": "Galite bet kada atsisakyti prenumeratos.",
+        "unsubscribe": "Atsisakyti prenumeratos"
+      },
+      "unsubscribed": {
+        "confirmation": "Jūs atsisakėte mūsų adresų sąrašo.",
+        "disclaimer": "Daugiau rinkodaros naujienų iš mūsų negausite. Galite vėl užsiprenumeruoti bet kuriuo metu.",
+        "preview": "Jūs peržiūrite, ką klientai matys atsisakę prenumeratos."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>Pasirinkote stebėti atvirą el. paštu.<\/b>",
+          "visibility": "El. pašto atidarymo rodikliai bus pranešami anonimiškai. Matysime tik tuos atvejus, jei atidarėte el. laišką kaip bendro el. pašto atidarymo rodiklio dalį.",
+          "opt_out_html": "Jei nenorite dalytis šia informacija, galite <a style=\"text-decoration:underline;\" href=\"%{link}\">atsisakyti<\/a> atviro el. pašto stebėjimo.",
+          "preview_bar": "Jūs peržiūrite, ką klientai matys, kai pasirinks el. pašto atvirumo stebėjimą."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>Atsisakėte atviro el. pašto stebėjimo.<\/b>",
+          "visibility": "Nematysime, ar atidarėte mūsų el. laiškus.",
+          "opt_in_html": "<a style=\"text-decoration:underline;\" href=\"%{link}\">Pasirinkite<\/a> el. pašto atidarymo stebėjimą.",
+          "preview_bar": "Jūs peržiūrite, ką klientai matys, kai atsisakys el. pašto atvirų stebėjimų."
+        },
+        "no_longer_track": {
+          "status_html": "<b>Nebestebime jokių el. laiškų atidarymų.<\/b>",
+          "privacy_policy": "Išsiuntę šį el. laišką, atnaujinome savo privatumo politiką ir nebestebime atidarymų."
+        },
+        "track": {
+          "status_html": "<b>Pranešama apie el. pašto atidarymo stebėjimą.<\/b>",
+          "visibility": "Matysime tik tai, ar atidarėte el. laišką, kaip dalį bendro el. pašto atidarymo rodiklio."
+        },
+        "updated_policy": {
+          "status_html": "<b>Pranešama apie el. pašto atidarymo stebėjimą.<\/b>",
+          "visibility": "Atnaujinome savo politiką ir dabar atidaromi sekti el. laiškai. El. pašto atidarymo rodikliai bus pranešami anonimiškai. Matysime tik tai, ar atidarėte el. laišką kaip dalį bendro el. pašto atidarymo rodiklio.",
+          "opt_out_html": "Jei nenorite dalytis šia informacija, galite <a style=\"text-decoration:underline;\" href=\"%{link}\">atsisakyti prenumeratos.<\/a>"
+        }
+      }
+    },
+    "filters": {
+      "availability": {
+        "label": "Prieinamumas",
+        "value": {
+          "in_stock": "Prekyboje",
+          "out_of_stock": "Išparduota"
+        }
+      },
+      "vendor": {
+        "label": "Prekės ženklas"
+      },
+      "price": {
+        "label": "Kaina"
+      },
+      "product_type": {
+        "label": "Produkto tipas"
+      }
     }
   },
   "customer_accounts": {
