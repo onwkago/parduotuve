@@ -22,8 +22,8 @@ Array.prototype.forEach.call(imgElements, function(img) {
             imgPercent = (imgBottom / imgTop) * 100 + (50 - speed * 50);
         }
 
-        img.style.top = imgPercent + '%';
-        img.style.transform = 'translate(-50%, -' + imgPercent + '%)';
+        img.style.top = imgPercent + '%' + ' !important';
+        img.style.transform = 'translate(-50%, -' + imgPercent + '%) !important';
     }
 
     // Attach event listeners to scroll and DOM ready events
