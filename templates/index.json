@@ -1,39 +1,22 @@
 {
   "sections": {
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h1"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "shopify:\/\/collections\/all"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
+    "498acea5-cd4c-46a7-818d-ed522f5c12b8": {
+      "type": "image-banner",
+      "custom_css": [
+        ".banner__media.media img {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}"
       ],
       "settings": {
-        "height": "large",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "overlap",
-        "color_scheme": "background-2",
+        "image": "shopify:\/\/shop_images\/river_guy.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "featured-collection": {
@@ -65,7 +48,7 @@
     }
   },
   "order": [
-    "image-with-text",
+    "498acea5-cd4c-46a7-818d-ed522f5c12b8",
     "featured-collection"
   ]
 }
