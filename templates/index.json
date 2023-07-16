@@ -3,7 +3,7 @@
     "498acea5-cd4c-46a7-818d-ed522f5c12b8": {
       "type": "image-banner",
       "custom_css": [
-        "div banner__media media {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}"
+        "div banner__media media {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; position:relative;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/river_guy.png",
@@ -13,7 +13,7 @@
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
         "show_text_below": true
