@@ -64,7 +64,7 @@
       <div class="basic_parallax"></div>
 
             <div>{{ section }}</div>
-            <div>{{ section.settings.image | slice: 5 }}</div>
+            <div>{{ section.settings.image | slice: 5, section.settings.image | size }}</div>
             <div>{{ section.settings }}</div>
 
     </div>
