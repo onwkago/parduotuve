@@ -29,7 +29,7 @@
   }
 
   .basic_parallax {
-  background-image: url({{ section.settings.image.image_url | asset_img_url: 'original' }});
+  background-image: url({{ section.settings.image |  slice:5  | asset_img_url: 'original' }});
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
