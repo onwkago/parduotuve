@@ -1,0 +1,370 @@
+{
+  "shopify": {
+    "sentence": {
+      "two_words_connector": " ir ",
+      "last_word_connector": ", ir "
+    },
+    "checkout": {
+      "general": {
+        "page_title": "Patikra",
+        "error_page_title": "Klaida",
+        "skip_to_content": "Pereiti prie turinio",
+        "breadcrumb": "Duonos trupiniai",
+        "continue_button_label": "Tęsti",
+        "complete_purchase_button_label": "Pilnas užsakymas",
+        "pay_now_button_label": "Sumokėk dabar",
+        "authenticate_purchase_button_label": "Patvirtinti mokėjimą",
+        "edit_link_label": "Redaguoti",
+        "all_rights_reserved": "Visos teisės saugomos %{shop_name}",
+        "print_policies_link_label": "Spausdinti",
+        "cart": "Krepšelis",
+        "close_modal_label": "Uždaryti",
+        "close_notice_label": "Uždaryti",
+        "expand_notice_label": "Peržiūrėti daugiau",
+        "continue_to_shipping_method": "Tęsti siuntimą",
+        "continue_to_payment_method": "Tęskite mokėjimą",
+        "continue_to_review": "Peržiūrėkite užsakymą",
+        "back_to_cart": "Grįžti į krepšelį",
+        "back_to_contact_information": "Grįžti į informaciją",
+        "back_to_shipping_method": "Grįžti į siuntimą",
+        "back_to_payment_method": "Grįžti į mokėjimą",
+        "choose_shipping_method": "Pasirinkite pristatymo būdą",
+        "choose_payment_method": "Pasirinkite mokėjimo būdą",
+        "choose_billing_address": "Pasirinkite atsiskaitymo adresą",
+        "contact_us_html": "Norėdami gauti daugiau informacijos, susisiekite su mumis",
+        "autocomplete_title": "Pasiūlymai",
+        "autocomplete_single_item": "Yra 1 prekė",
+        "autocomplete_multi_item": "Yra {{number}} elementų",
+        "autocomplete_close": "Uždaryti pasiūlymus",
+        "forwarding_indicator": {
+          "new_window": "Atsidaro naujame lange.",
+          "external": "Atidaro išorinę svetainę.",
+          "external_and_new_window": "Išorinė svetainė atidaroma naujame lange."
+        },
+        "checkout_context": {
+          "step_one": "%{shop_name} – Patikrinimas"
+        },
+        "tooltip_accessibility_label": "Daugiau informacijos",
+        "errors": {
+          "session_identifier_not_unique_error": "Kažkas nepavyko su jūsų užsakymu, bandykite dar kartą patikrinti.",
+          "line_item_limit_reached": "Pasiektas maksimalus eilutinių elementų skaičius."
+        },
+        "full_price": "Pilna kaina:",
+        "title": "Patikra – {{shopName}}",
+        "full_title": "{{pageTitle}} – {{shopName}} – Patikrinimas",
+        "loading_title": "Patikra – {{shopName}}",
+        "google_map_title": "Google žemėlapis",
+        "submit_order_button_label": "Pateikti užsakymą",
+        "submit_for_review_button_label": "Pateikti peržiūrai",
+        "submit_for_review_notice_label": "Mokėjimas nebus atliktas, kol jūsų užsakymas nebus peržiūrėtas",
+        "continue_to_payment_plans_button_label": "Tęskite mokėjimo planus",
+        "back_button_label": "Grįžti",
+        "choose_delivery_strategy": "Pasirinkite pristatymo būdą",
+        "autocomplete_zero_item": "Prekių nėra",
+        "autocomplete_powered_by_google": "Parengta pagal {{brandName}}",
+        "submit": "Pateikti",
+        "processing": "Apdorojimas…",
+        "stepper": {
+          "increase": "Padidinti {{type}}",
+          "decrease": "Sumažinti {{type}}",
+          "minimum_reached": "Pasiektas minimumas {{value}}",
+          "maximum_reached": "Pasiektas maksimalus {{value}}"
+        },
+        "remove_item": "Pašalinti %{label}",
+        "remove_tag": "Pašalinti žymą",
+        "dates": {
+          "weekdays": {
+            "monday": "pirmadienis",
+            "tuesday": "antradienis",
+            "wednesday": "trečiadienį",
+            "thursday": "ketvirtadienis",
+            "friday": "penktadienis",
+            "saturday": "šeštadienis",
+            "sunday": "sekmadienis"
+          },
+          "weekdays_abbreviation": {
+            "wednesday": "Mes",
+            "friday": "Kun"
+          },
+          "months": {
+            "january": "sausio mėn",
+            "february": "vasario mėn",
+            "march": "Kovas",
+            "april": "Balandis",
+            "may": "Gegužė",
+            "june": "birželis",
+            "july": "liepos mėn",
+            "august": "Rugpjūtis",
+            "september": "rugsėjis",
+            "october": "Spalio mėn",
+            "november": "lapkritis",
+            "december": "gruodį"
+          }
+        },
+        "datepicker": {
+          "show_previous_month": "Rodyti ankstesnį mėnesį, {{month}} {{year}}",
+          "show_next_month": "Rodyti kitą mėnesį, {{month}} {{year}}"
+        }
+      },
+      "order_summary": {
+        "gift_card_ending": "Dovanų kortelė, kuri baigiasi %{last_characters}",
+        "estimated_tax_label": "Numatomas mokestis",
+        "multiple_shipping_lines_label": "Siuntimas iš viso",
+        "recurring_subtotal_label": "Pasikartojanti tarpinė suma",
+        "recurring_total_label": "Pasikartojantis iš viso",
+        "recurring_total_tooltip": "Neįtraukiamas siuntimas, mokesčiai, muitai ar bet kokios taikomos nuolaidos.",
+        "confirmation_number_label": "Patvirtinimas #%{confirmation_number}",
+        "higher_value_discount_applied": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nepavyko panaudoti su esamomis nuolaidomis. Jūs jau turite geresnį derinį.",
+        "percent_off_shipping": "%{percent}% nuolaida siuntimui",
+        "amount_off_shipping": "%{amount} nuolaida siuntimui",
+        "deferred_payment_info": {
+          "title": "%{amount_due} mokėjimas turi būti atliktas %{due_at}",
+          "description_html": "Jei turite klausimų apie užsakymą, %{contact_us}.",
+          "paid_today": "Iš viso sumokėta šiandien",
+          "due_on_fulfillment_title": "Atlikus įvykdymą, reikia sumokėti %{amount_due}",
+          "due_on_receipt_title": "Sumokėti %{amount_due} reikia gavus"
+        },
+        "payment_terms_totals": {
+          "due_today": "Iš viso sumokėti šiandien",
+          "due_later": "Iš viso mokėtina %{due_at}",
+          "due_on_fulfillment": "Iš viso mokėtina įvykdžius",
+          "due_on_receipt": "Iš viso mokėtina gavus",
+          "due_later_checkout_to_draft": "Iš viso sumokėti vėliau"
+        },
+        "maximum_discount_code_limit_reached": "Pasiekėte didžiausią nuolaidų kodų skaičių. Pašalinkite esamą kodą, kad galėtumėte naudoti <strong style=\"text-transform:uppercase\">%{code}<\/strong> .",
+        "discount_code_application_failed": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> šiuo metu neveikia. Susisiekite su mumis dėl pagalbos.",
+        "due_on_fulfillment": "Sumokama iki įvykdymo",
+        "subscriptions": "Prenumeratos",
+        "duties_label": "Pareigos",
+        "duties_and_taxes_label": "Muitai ir mokesčiai",
+        "error_duties_tooltip": "Šis užsakymas siunčiamas iš kitos šalies, todėl pristatymo metu gali būti taikomi muitai ir mokesčiai.",
+        "may_be_charged_on_delivery": "Gali būti apmokestintas pristatymo metu",
+        "total_updated_label_with_price": "Atnaujinta bendra kaina: %{totalPrice}",
+        "recurring_payments": "Pasikartojantys mokėjimai",
+        "recurring_total_multiple_label": "Šis užsakymas turi periodinį mokestį už kelias prekes.",
+        "deferred_total_due_date_label": "Iš viso terminas {{date}}",
+        "full_price": "Visa kaina: %{price}",
+        "custom_discount": "Individualizuota nuolaida",
+        "expand_component_information": {
+          "one": "Rodyti %{count} elementą",
+          "other": "Rodyti %{count} elementų"
+        },
+        "collapse_component_information": {
+          "one": "Slėpti %{count} elementą",
+          "other": "Slėpti %{count} elementus"
+        },
+        "discount_discovery": {
+          "add_code": "Pridėti nuolaidą",
+          "merchandise_quantity_label": {
+            "one": "%{count} prekė",
+            "other": "%{count} elementai"
+          }
+        },
+        "alternative_payment_currency_total": "Apmokestinta kaip %{amount_due}",
+        "title": "Užsakymo santrauka",
+        "order_name_label": "Užsakymas %{name}",
+        "shopping_cart_label": "Pirkinių krepšelis",
+        "discount_title": "Nuolaida",
+        "discount_label": "Nuolaidos kodas",
+        "discount_placeholder": "Nuolaidos kodas",
+        "gift_card_title": "Dovanų kortelė",
+        "gift_card_label": "Dovanų kortelė",
+        "gift_card_placeholder": "Dovanų kortelė",
+        "gift_card_and_discount_title": "Dovanų kuponas arba nuolaidos kodas",
+        "gift_card_and_discount_label": "Dovanų kuponas arba nuolaidos kodas",
+        "gift_card_and_discount_placeholder": "Dovanų kuponas arba nuolaidos kodas",
+        "remove_gift_card_label": "Aišku dovanų kortelė",
+        "remove_discount_label": "Pašalinti nuolaidą",
+        "free_shipping_discount_label": "Nemokamas pristatymas",
+        "applied_free_shipping_discount_label": "Taikoma",
+        "apply_discount_button_label": "Taikyti",
+        "applied_discount_message": "%{amount} nuolaida visai užsakymo kainai",
+        "discount_has_been_applied": "Nuolaida pritaikyta",
+        "discount_has_been_removed": "Nuolaida pašalinta",
+        "gift_card_has_been_applied": "Dovanų kortelė pritaikyta",
+        "gift_card_has_been_removed": "Dovanų kortelė pašalinta",
+        "gift_card_subscriptions_notice": "Dovanų kortelės galios tik pirmam mokėjimui",
+        "discount_already_applied": "Šiam užsakymui pritaikyta nuolaida. Negalite pridėti kitos nuolaidos.",
+        "cart_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nuolaidos kodas negalioja jūsų krepšelyje esančioms prekėms",
+        "discount_requires_customer_notice": "Įveskite pristatymo informaciją, kad pritaikytumėte <strong style=\"text-transform:uppercase\">%{code}<\/strong> nuolaidos kodą",
+        "customer_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nuolaidos kodas šiuo metu jums neprieinamas",
+        "shipping_information_does_not_meet_discount_requirements_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nuolaidos kodas negalimas jūsų pristatymo adresu",
+        "customer_already_used_once_per_customer_discount_notice": "<strong style=\"text-transform:uppercase\">%{code}<\/strong> nuolaidos kodas jau panaudotas",
+        "subtotal_label": "Tarpinė suma",
+        "shipping_label": "Siuntimas",
+        "pickup_label": "Paimti",
+        "no_pickup_location": "Šio užsakymo atsiėmimas negalimas. Pasirinkite kitą pristatymo būdą.",
+        "tip_label": "Patarimas",
+        "calculating_shipping": "Skaičiuojama…",
+        "calculating": "Skaičiuojama…",
+        "shipping_default_value": "Apskaičiuota kitame žingsnyje",
+        "shipping_pending_message": "Dar nepasiekiama",
+        "shipping_policy_link": "Siuntimo išlaidos",
+        "taxes_label": "Mokesčiai",
+        "estimated_taxes_label": "Apskaičiuoti mokesčiai",
+        "information_estimated_taxes_label": "Mokesčiai (apytiksliai)",
+        "estimated_taxes_finalization_tooltip_content": "Galutinis mokestis ir suma bus patvirtinti el. paštu arba žinute po to, kai pateiksite užsakymą.",
+        "order_total_label": "užsakymo suma",
+        "total_label": "Iš viso",
+        "total_outstanding_label": "Mokėtina suma",
+        "partial_total_label": "Iš viso",
+        "free_total_label": "Laisvas",
+        "paid_label": "Mokama",
+        "payment_due_label": "Mokėjimo terminas",
+        "vat_label_html": "Įskaitant %{amount} mokesčius",
+        "discount_and_gift_card_savings_notice": "Po %{discount_amount} nuolaidų ir %{gift_card_amount} dovanų kortelių",
+        "discount_savings_notice": "Po %{discount_amount} nuolaidų",
+        "gift_card_savings_notice": "Po %{gift_card_amount} dovanų kortelėse",
+        "cost_table_title": "Išlaidų suvestinė",
+        "description_label": "apibūdinimas",
+        "price_label": "Kaina",
+        "quantity_label": "Kiekis",
+        "product_change_label": "Keisti",
+        "product_image_label": "Produkto vaizdas",
+        "scroll_order_summary": "Slinkite, kad gautumėte daugiau elementų",
+        "expand_order_summary": "Rodyti užsakymo suvestinę",
+        "collapse_order_summary": "Slėpti užsakymo suvestinę",
+        "original_price": "Pradinė kaina",
+        "sale_price": "Pardavimo kaina",
+        "total_updated_label": "Atnaujinta bendra kaina:",
+        "order_total_updated_label": "Atnaujinta iš viso",
+        "total_already_paid_label": "Jau sumokėta"
+      },
+      "shipping": {
+        "title": "Siuntimas",
+        "shipping_method_title": "Atsiuntimo metodas",
+        "shipping_method_one_time_purchase_group_title": "Vienkartinis pirkimas",
+        "shipping_method_subscription_group_title": "Prenumerata",
+        "subscription_shipping": "Prenumeratos siuntimas",
+        "subscription_local_delivery": "Prenumeratos vietinis pristatymas",
+        "subscription_pickup": "Prenumeratos atsiėmimas",
+        "waiting_on_rate_notice": "Gaunami galimi pristatymo įkainiai…",
+        "waiting_on_pickup_location_notice": "Gaunamos galimos atsiėmimo vietos…",
+        "no_rates_for_cart_or_destination_notice": "Jūsų krepšeliui ar adresui nėra pristatymo būdų",
+        "no_pickup_location_notice": "Bent vieno iš jūsų produktų negalima atsiimti",
+        "no_rates_for_country_notice": "Pristatymo tarifų šiuo adresu nerasta.",
+        "no_rates_contact_notice": "Norėdami gauti daugiau informacijos, susisiekite su mumis",
+        "free_rate_label": "Laisvas",
+        "cheapest_rate_label": "Pigiausias",
+        "please_enter_your_shipping_information_notice": "Įveskite savo pristatymo informaciją.",
+        "estimated_delivery_date": {
+          "one": "%{count} darbo diena",
+          "other": "%{count} darbo dienų"
+        },
+        "estimated_delivery_date_range": "%{minimum} iki %{maximum} darbo dienų",
+        "estimated_delivery_time": "Numatomas pristatymo laikas %{time}",
+        "estimated_delivery_time_range": "Numatomas pristatymo laikas %{min_time}–%{max_time}",
+        "delivery_today": "Pristatymas tą pačią dieną %{time}",
+        "delivery_tomorrow": "Pristatymas kitą dieną %{time}",
+        "two_day_delivery": "2 dienų pristatymas %{time}",
+        "delivery": "Pristatymo laikas}",
+        "arrives_time": "Atvyksta %{time}",
+        "arrives_time_range": "Atvyksta %{min_time}–%{max_time}",
+        "estimated_time": "Apskaičiuotas laikas}",
+        "estimated_time_range": "Numatomas %{min_time}–%{max_time}",
+        "shipping_line_phone_label": "Mobiliojo telefono numeris (būtinas)",
+        "shipping_line_phone": "Jūsų kurjeris gali naudoti šį numerį, kad su jumis susisiektų.",
+        "shipping_line_delivery_phone_label": "Mobilaus telefono numeris",
+        "shipping_line_delivery_phone": "Su jumis gali būti susisiekta dėl pristatymo naujienų.",
+        "optional_shipping_line_delivery_instructions_label": "Pristatymo instrukcijos (neprivaloma)",
+        "shipping_line_delivery_instructions": "Įveskite reikiamą informaciją, pvz., durų kodus arba išleidimo instrukcijas.",
+        "other_method": {
+          "zero": "Kitų metodų nėra",
+          "one": "%{count} kitas būdas pasiekiamas adresu",
+          "other": "%{count} kiti metodai galimi nuo"
+        },
+        "shipping_rate_discounted_amount": "Buvo: %{original_amount}. Dabar: %{amount}",
+        "local_delivery": "Vietinis pristatymas",
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "one": "%{count} pristatymui",
+            "other": "%{count} pristatymo"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "one": "kiekvieną dieną",
+              "other": "kas %{count} dienų"
+            },
+            "week": {
+              "one": "kiekvieną savaitę",
+              "other": "kas %{count} sav"
+            },
+            "month": {
+              "one": "kiekvieną mėnesį",
+              "other": "kas %{count} mėn"
+            },
+            "year": {
+              "one": "kiekvienais metais",
+              "other": "kas %{count} metų"
+            }
+          },
+          "multiple_subscriptions_shipping_price_label": "%{shipping_price} už pristatymą",
+          "prepaid_shipping_price_label": "%{shipping_price} už pristatymą x %{delivery_interval_count}",
+          "initial_order_discounted": "Pirmas pristatymo mokestis %{discounted_shipping_cost}, tada %{frequency_description}",
+          "prepaid_initial_order_discounted": "Pirmasis pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency}"
+        }
+      },
+      "stock": {
+        "remove": "Pašalinti",
+        "empty_cart_label": "Jūsų krepšelis tuščias",
+        "quantity_update": {
+          "page_title": "Kiekio atnaujinimas",
+          "title": "Kiekio atnaujinimas",
+          "description": "Galimi šių prekių kiekiai pasikeitė ir atnaujinami jūsų krepšelyje."
+        },
+        "unpurchasable_product": {
+          "title": "Neperkamas produktas",
+          "header": "Kai kurios prekės buvo pašalintos iš jūsų krepšelio",
+          "message": "Šios prekės nėra prieinamos B2B užsakymams.",
+          "status_column_header": "Nepasiekiamas"
+        },
+        "unpurchasable_product_generic": {
+          "title": "Neperkamas produktas",
+          "header": "Kai kurios prekės buvo pašalintos iš jūsų krepšelio",
+          "message": "Šios prekės nepasiekiamos.",
+          "status_column_header": "Nepasiekiamas"
+        },
+        "unshippable_product": {
+          "title": "Pristatymo nėra",
+          "header": {
+            "one": "%{count} prekės pristatymas nepasiekiamas",
+            "other": "%{count} prekių pristatymas nepasiekiamas"
+          },
+          "message": {
+            "one": "Ši prekė bus pašalinta iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų.",
+            "other": "Šios prekės bus pašalintos iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų."
+          },
+          "status_column_header": "Nėra pristatymo"
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "one": "Nepasiekiamas produktas",
+          "other": "Nepasiekiami produktai"
+        },
+        "products_not_available": {
+          "one": "Šis produktas bus pašalintas iš jūsų krepšelio, nes jo nėra jūsų šalyje \/ regione.",
+          "other": "Šie produktai bus pašalinti iš jūsų krepšelio, nes jų nėra jūsų šalyje \/ regione."
+        },
+        "all_products_in_cart_unavailable": {
+          "one": "Šis produktas jūsų šalyje\/regione nepasiekiamas.",
+          "other": "Šių produktų nėra jūsų šalyje\/regione."
+        },
+        "unavailable_label": "Nepasiekiamas"
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "one": "%{count} prekės pristatymas nepasiekiamas",
+            "other": "%{count} prekių pristatymas nepasiekiamas"
+          },
+          "message": {
+            "one": "Ši prekė bus pašalinta iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų.",
+            "other": "Šios prekės bus pašalintos iš jūsų krepšelio, nes jūsų adresu nėra pristatymo būdų."
+          },
+          "label": "Nėra pristatymo"
+        }
+      }
+    }
+  }
+}
