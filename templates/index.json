@@ -3,7 +3,7 @@
     "498acea5-cd4c-46a7-818d-ed522f5c12b8": {
       "type": "image-banner",
       "custom_css": [
-        "div banner__media media {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; position:relative;}"
+        "div banner__media media {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover; border:5px solid red;}"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/river_guy.png",
