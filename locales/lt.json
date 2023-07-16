@@ -301,8 +301,40 @@
           "multiple_subscriptions_shipping_price_label": "%{shipping_price} už pristatymą",
           "prepaid_shipping_price_label": "%{shipping_price} už pristatymą x %{delivery_interval_count}",
           "initial_order_discounted": "Pirmas pristatymo mokestis %{discounted_shipping_cost}, tada %{frequency_description}",
-          "prepaid_initial_order_discounted": "Pirmasis pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency}"
-        }
+          "prepaid_initial_order_discounted": "Pirmasis pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency}",
+          "prepaid_initial_order_discounted_with_per_delivery_price": "Pirmasis pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery})",
+          "prepaid_initial_order_discounted_with_renewal": "Pirmas pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency}, tada %{shipping_price} %{billing_cycle}",
+          "prepaid_initial_order_discounted_with_per_delivery_price_and_renewal": "Pirmas pristatymo mokestis %{discounted_shipping_price} %{prepaid_delivery_frequency} (%{discounted_cost_per_delivery}), tada %{shipping_price} %{billing_cycle}",
+          "shipping_price_included": "Įskaitant",
+          "recurring_order_shipping_price": "po to %{recurring_order_shipping_price}",
+          "first_order_shipping_price_included": "Įtrauktas pirmasis užsakymas, po to %{recurring_order_shipping_price}",
+          "first_order_different_shipping_price": "%{first_order_shipping_price} (%{per_delivery_price} už pristatymą), po to %{recurring_order_shipping_price}",
+          "first_n_order_free": {
+            "one": "Pirmas užsakymas nemokamas",
+            "other": "Pirmi %{count} užsakymai nemokami"
+          },
+          "free_for_first_n_order": {
+            "one": "Pirmam užsakymui",
+            "other": "Pirmiesiems %{count} užsakymams"
+          }
+        },
+        "one_time_purchase_shipping": "Vienkartinis siuntimas",
+        "address2_add_label": "Pridėkite butą, apartamentą ir kt.",
+        "duties_and_taxes_title": "Muitai ir mokesčiai",
+        "shipping_information_required_notice": "Reikalinga pristatymo informacija. {{link}} .",
+        "shipping_information_redirect_link": "Įveskite savo informaciją čia",
+        "loading_progressive_rates": "Ieškoma daugiau įkainių…",
+        "no_other_methods_available": "Kitų metodų nėra",
+        "duties_and_taxes_options": {
+          "ddu_title": "Mokėti pristatymo metu",
+          "ddu_caption": "Gali būti taikomi papildomi mokesčiai",
+          "ddp_title": "Sumokėk dabar",
+          "ddp_caption": "Jokių papildomų mokesčių už pristatymą"
+        },
+        "shipping_method_combinations": {
+          "combination": "%{rest} ir %{current}"
+        },
+        "shipping_used_as_billing_notice": "Tai taip pat bus naudojamas kaip šio užsakymo atsiskaitymo adresas."
       },
       "stock": {
         "remove": "Pašalinti",
@@ -377,7 +409,81 @@
         },
         "alternative_payment_currency_total_notice": "Pastaba: būsite apmokestinti %{amount_due}.",
         "waiting_on_taxes_message": "Jei jūsų mokesčiai neapskaičiuojami per kelias sekundes, atnaujinkite puslapį.",
-        "waiting_on_taxes_notice": "Mokesčių apskaičiavimas"
+        "waiting_on_taxes_notice": "Mokesčių apskaičiavimas",
+        "amazon_payments_label": "„Amazon Pay“.",
+        "amazon_payments_login_hint": "Jūsų bus paprašyta prisijungti prie „Amazon“.",
+        "amazon_payments_logout": "Atsijunkite nuo „Amazon Pay“.",
+        "amazon_payments_failed_mfa_challenge": "Nepavyko naudoti pasirinkto mokėjimo metodo. Pasirinkite kitą metodą arba susisiekite su banku ar kortelės išdavėju.",
+        "amazon_payments_abandoned_mfa_challenge": "Nepavyko atlikti mokėjimo. Išbandykite kitą mokėjimo metodą arba susisiekite su banku ar kortelės išdavėju.",
+        "amazon_payments_could_not_enqueue_authorize": "Apdorojant mokėjimą kilo problema. Bandykite dar kartą arba naudokite kitą mokėjimo metodą.",
+        "title": "Mokėjimas",
+        "amount_left_to_pay_label": "Mokėjimo terminas:",
+        "discount_button_action_label": "Taikyti nuolaidos kodą",
+        "gift_card_code_label": "Dovanų kortelės kodas",
+        "apply_gift_card_button_label": "Taikyti",
+        "gift_card_balance_label": "Likutis:",
+        "supported_card_brands_more_label": "ir dar…",
+        "detected_card_brand": "Aptiktas kortelės prekės ženklas: {brand}",
+        "credit_card_vaulting_sign_in_banner_title": "Išsaugokite savo kredito kortelę",
+        "credit_card_vaulting_sign_in_banner_info": "Prisijunkite arba susikurkite paskyrą, kad išsaugotumėte savo kredito kortelę būsimiems pirkiniams.",
+        "credit_card_vaulting_sign_in_banner_button_label": "Prisijungti",
+        "ftd_vault_credit_card_label": "Išsaugokite šią kredito kortelę mano paskyroje, kad galėtumėte greičiau atsiskaityti",
+        "card_number_label": "Kortelės numeris",
+        "card_number_placeholder": "Kortelės numeris",
+        "card_pay_with": "Mokėti su:",
+        "card_security_notice": "Visos operacijos yra saugios ir užšifruotos.",
+        "card_security_vault_notice": "Mums reikia jūsų duomenų būsimiems mokėjimams. Visos operacijos yra saugios ir užšifruotos.",
+        "card_information_notice": "Visos operacijos yra saugios ir užšifruotos. Kredito kortelės informacija niekada nesaugoma.",
+        "name_on_card_label": "Vardas ant kortelės",
+        "name_on_card_placeholder": "Vardas ant kortelės",
+        "card_expired": "Baigėsi galiojimo laikas",
+        "card_expiry_label": "Galiojimo pabaigos data (MM \/ MM)",
+        "card_expiry_placeholder": "Galiojimo pabaigos data (MM \/ MM)",
+        "credit_card_start_month": "Pradėti mėnesį",
+        "credit_card_start_year": "Pradžios metai",
+        "delete_customer_mandate_modal_title": "Pašalinti šią mokėjimo kortelę?",
+        "delete_customer_mandate_modal_body": "Jei pašalinsite šią kortelę, turėsite ją vėl pridėti prieš naudodami ją mokėjimams.",
+        "delete_customer_mandate_modal_confirm": "Pašalinti kortelę",
+        "delete_customer_mandate_modal_cancel": "Atšaukti",
+        "card_verification_value_label": "Apsaugos kodas",
+        "card_verification_value_placeholder": "Apsaugos kodas",
+        "card_verification_confirm": "Patvirtinimo tikslais įveskite kortelės saugos kodą.",
+        "card_expiry_date_explanation": "Kortelės galiojimo laikas formatu: mėnuo, mėnuo, metai, metai",
+        "card_expiration_month_label": "Galiojimo pabaigos mėnuo",
+        "card_expiration_year_label": "Galiojimo laikas",
+        "card_verification_value_explanation": "3 skaitmenų saugos kodas paprastai randamas užpakalinėje kortelės pusėje. „American Express“ kortelės priekyje yra 4 skaitmenų kodas.",
+        "card_verification_value_explanation_amex": "4 skaitmenų saugos kodas kortelės priekyje",
+        "card_verification_value_explanation_other": "3 skaitmenų saugos kodas kortelės gale",
+        "card_start_label": "Išleidimo data (MM \/ MM)",
+        "card_start_placeholder": "Išleidimo data (MM \/ MM)",
+        "card_issue_number_label": "Išdavimo numeris",
+        "card_issue_number_placeholder": "Išdavimo numeris",
+        "card_change_label": "Keisti",
+        "card_update_label": "Atnaujinti kortelę",
+        "ends_with_label": "baigiasi %{last_digits}",
+        "payment_method_saved": "Mokėjimo būdas išsaugotas",
+        "card_vaulted_company_location": "Kortelė išsaugota šiai vietai",
+        "expiry_long": "(Galiojimo laikas baigiasi %{mėn.\/%{metus})",
+        "expiry_short": "(Galiojimo laikas %{mėn.\/%{metai})",
+        "saved_by_payment_method": "Išsaugota %{payment_method}",
+        "pay_with_payment_method": "Mokėkite naudodami %{payment_metho}",
+        "different_credit_card_label": "Naudokite kitą kredito kortelę",
+        "same_billing_address_label": "Toks pat kaip ir pristatymo adresas",
+        "different_billing_address_label": "Naudokite kitą atsiskaitymo adresą",
+        "billing_address_associated_with_mandate": "Naudokite adresą, susietą su mokėjimo metodu",
+        "billing_address_associated_with_mandate_info": "Jei norite pakeisti atsiskaitymo adresą, pašalinkite ir iš naujo įveskite savo kredito kortelės duomenis",
+        "free_order_notice_html": "Jūsų užsakymas <strong>nemokamas<\/strong> . Mokėti nereikia.",
+        "express_checkout_free_order": "Nebūsite apmokestinti už nemokamą užsakymą",
+        "order_covered_by_gift_cards_notice": {
+          "one": "Jūsų užsakymas padengtas dovanų kortele.",
+          "other": "Jūsų užsakymas padengiamas dovanų kortelėmis."
+        },
+        "offsite_gateway_redirect_hint": "Paspaudę „%{button_label}“, būsite nukreipti į %{gateway_label}, kad galėtumėte saugiai užbaigti pirkimą.",
+        "offsite_gateway_redirect_hint_multi_currency_html": "%{gateway_label} iš viso %{total_shop_price}",
+        "receiver_payment_experience_hint": "Pateikę užsakymą gausite mokėjimo informaciją. Atlikite mokėjimą „Multibanco“ arba internetu per %{due_days} dienų.",
+        "billing_address_title": "Atsiskaitymo adresas",
+        "billing_address_description": "Pasirinkite adresą, atitinkantį jūsų kortelę arba mokėjimo metodą.",
+        "billing_address_description_no_shipping_address": "Įveskite adresą, atitinkantį jūsų kortelę arba mokėjimo metodą."
       },
       "payment_summary": {
         "gift_card_current_balance_notice": "Dabartinis likutis %{amount}",
@@ -575,6 +681,11 @@
         "delivered_local_description_html": "Negavote užsakymo? %{Praneškite mums}.",
         "payment_method_draft_order": "Terminas po užsakymo peržiūros",
         "choose_payment_method_later": "Mokėjimo būdą pasirinkite vėliau"
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "Papildoma informacija"
+        }
       }
     },
     "errors": {
