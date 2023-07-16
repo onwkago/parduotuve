@@ -45,10 +45,27 @@
         "padding_top": 56,
         "padding_bottom": 68
       }
+    },
+    "19392cc5-1c21-4e28-9d7b-ba8ba7ca276d": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/autumn-trees-hillside.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "498acea5-cd4c-46a7-818d-ed522f5c12b8",
-    "featured-collection"
+    "featured-collection",
+    "19392cc5-1c21-4e28-9d7b-ba8ba7ca276d"
   ]
 }
