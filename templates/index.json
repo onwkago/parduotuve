@@ -6,7 +6,7 @@
         ".banner__media.media img {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/river_guy.png",
+        "image": "shopify:\/\/shop_images\/river_guy2.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-center",
@@ -48,11 +48,14 @@
     },
     "19392cc5-1c21-4e28-9d7b-ba8ba7ca276d": {
       "type": "image-banner",
+      "custom_css": [
+        ".banner__media.media img {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}"
+      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/river_guy2.png",
+        "image": "shopify:\/\/shop_images\/river_guy.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "desktop_content_position": "middle-center",
+        "desktop_content_position": "top-center",
         "show_text_box": true,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
