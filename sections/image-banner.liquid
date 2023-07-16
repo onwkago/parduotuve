@@ -27,6 +27,41 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+
+  .parallax {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-perspective: 1px;
+    perspective: 1px;
+  }
+
+  .parallax__layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  }
+
+  .parallax__layer--base {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  }
+
+  .parallax__layer--back {
+  -webkit-transform: translateZ(-1px) scale(2);
+  transform: translateZ(-1px) scale(2);
+  }
+
+  img {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  transform: translateZ(-10px);
+  }
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -42,13 +77,13 @@
     assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
   endif
 -%}
-
+{% comment %} bybys kiausai{% endcomment %}
 <div
   id="Banner-{{ section.id }}"
   class="parallax banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}"
 >
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
+    <div class="parallax__layer parallax__layer--back banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
         if section.settings.image_2 != blank
