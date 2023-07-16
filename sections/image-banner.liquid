@@ -39,7 +39,7 @@
 
   .basic_parallax {
   /* The image used */
-  background-image: url({{ section.settings.image | asset_img_url: 'original' }});
+  background-image: url({{ section.settings.image.image_url | asset_img_url: 'original' }});
 
   /* Set a specific height */
   min-height: 500px;
