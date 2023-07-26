@@ -5,7 +5,7 @@
     "primaryLocale": "lt",
     "adminMode": false
   },
-  "tsPublished": 1690392292,
+  "tsPublished": 1690392659,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -313,7 +313,7 @@
       }
     },
     "content": {
-      "href": "https:\/\/45f30c.myshopify.com\/policies\/privacy-policy",
+      "href": "https:\/\/kupranugaris.lt\/policies\/privacy-policy",
       "imprintHref": "\/",
       "close": "&#10005;",
       "target": "",
