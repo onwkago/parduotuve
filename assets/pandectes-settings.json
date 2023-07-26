@@ -1,0 +1,667 @@
+{
+  "store": {
+    "plan": null,
+    "theme": "parduotuve\/master",
+    "primaryLocale": "lt",
+    "adminMode": false
+  },
+  "tsPublished": 1690392269,
+  "declaration": {
+    "showPurpose": false,
+    "showProvider": false,
+    "declIntroText": "Naudojame slapukus siekdami optimizuoti svetainės funkcionalumą, analizuoti našumą ir suteikti jums asmeninę patirtį. Kai kurie slapukai yra būtini, kad svetainė veiktų ir tinkamai veiktų. Šių slapukų negalima išjungti. Šiame lange galite valdyti slapukų pasirinkimą.",
+    "showDateGenerated": true
+  },
+  "language": {
+    "languageMode": "Single",
+    "fallbackLanguage": "lt",
+    "languageDetection": "browser",
+    "languagesSupported": [
+
+    ]
+  },
+  "texts": {
+    "managed": {
+      "headerText": {
+        "lt": "Mes gerbiame jūsų privatumą"
+      },
+      "consentText": {
+        "lt": "Ši svetainė naudoja slapukus, kad užtikrintų geriausią patirtį."
+      },
+      "dismissButtonText": {
+        "lt": "Gerai"
+      },
+      "linkText": {
+        "lt": "Sužinokite daugiau"
+      },
+      "imprintText": {
+        "lt": "Įspaudas"
+      },
+      "preferencesButtonText": {
+        "lt": "Nuostatos"
+      },
+      "allowButtonText": {
+        "lt": "Priimti"
+      },
+      "denyButtonText": {
+        "lt": "Atmesti"
+      },
+      "leaveSiteButtonText": {
+        "lt": "Palikite šią svetainę"
+      },
+      "cookiePolicyText": {
+        "lt": "Slapukų politika"
+      },
+      "preferencesPopupTitleText": {
+        "lt": "Tvarkykite sutikimo nuostatas"
+      },
+      "preferencesPopupIntroText": {
+        "lt": "Mes naudojame slapukus, siekdami optimizuoti svetainės funkcionalumą, analizuoti našumą ir suteikti jums asmeninės patirties. Kai kurie slapukai yra būtini, kad svetainė veiktų ir veiktų tinkamai. Šių slapukų negalima išjungti. Šiame lange galite valdyti slapukų pasirinkimą."
+      },
+      "preferencesPopupCloseButtonText": {
+        "lt": "Uždaryti"
+      },
+      "preferencesPopupAcceptAllButtonText": {
+        "lt": "Priimti viską"
+      },
+      "preferencesPopupRejectAllButtonText": {
+        "lt": "Visus atmesti"
+      },
+      "preferencesPopupSaveButtonText": {
+        "lt": "Išsaugoti nuostatas"
+      },
+      "accessSectionTitleText": {
+        "lt": "Duomenų perkeliamumas"
+      },
+      "accessSectionParagraphText": {
+        "lt": "Jūs turite teisę bet kuriuo metu pasiekti savo duomenis."
+      },
+      "rectificationSectionTitleText": {
+        "lt": "Duomenų taisymas"
+      },
+      "rectificationSectionParagraphText": {
+        "lt": "Jūs turite teisę reikalauti, kad jūsų duomenys būtų atnaujinami, kai tik manote, kad tai yra tinkama."
+      },
+      "erasureSectionTitleText": {
+        "lt": "Teisė būti pamirštam"
+      },
+      "erasureSectionParagraphText": {
+        "lt": "Jūs turite teisę reikalauti, kad visi jūsų duomenys būtų ištrinti. Po to nebegalėsite pasiekti savo paskyros."
+      },
+      "declIntroText": {
+        "lt": "Naudojame slapukus siekdami optimizuoti svetainės funkcionalumą, analizuoti našumą ir suteikti jums asmeninę patirtį. Kai kurie slapukai yra būtini, kad svetainė veiktų ir tinkamai veiktų. Šių slapukų negalima išjungti. Šiame lange galite valdyti slapukų pasirinkimą."
+      }
+    },
+    "categories": {
+      "strictlyNecessaryCookiesTitleText": {
+        "lt": "Griežtai reikalingi slapukai"
+      },
+      "functionalityCookiesTitleText": {
+        "lt": "Funkciniai slapukai"
+      },
+      "performanceCookiesTitleText": {
+        "lt": "Našumo slapukai"
+      },
+      "targetingCookiesTitleText": {
+        "lt": "Tiksliniai slapukai"
+      },
+      "unclassifiedCookiesTitleText": {
+        "lt": "Neklasifikuoti slapukai"
+      },
+      "strictlyNecessaryCookiesDescriptionText": {
+        "lt": "Šie slapukai yra būtini, kad galėtumėte judėti svetainėje ir naudotis jos funkcijomis, pvz., Pasiekti saugias svetainės sritis. Svetainė negali tinkamai veikti be šių slapukų."
+      },
+      "functionalityCookiesDescriptionText": {
+        "lt": "Šie slapukai leidžia svetainei suteikti daugiau funkcijų ir suasmeninti. Juos galime nustatyti mes arba trečiųjų šalių teikėjai, kurių paslaugas pridėjome prie savo puslapių. Jei neleidžiate šių slapukų, kai kurios arba visos šios paslaugos gali neveikti tinkamai."
+      },
+      "performanceCookiesDescriptionText": {
+        "lt": "Šie slapukai leidžia mums stebėti ir pagerinti mūsų svetainės veikimą. Pavyzdžiui, jie leidžia mums suskaičiuoti apsilankymus, nustatyti srauto šaltinius ir pamatyti, kurios svetainės dalys yra populiariausios."
+      },
+      "targetingCookiesDescriptionText": {
+        "lt": "Šiuos slapukus mūsų svetainėje gali nustatyti mūsų reklamos partneriai. Tos įmonės gali jas naudoti norėdami sukurti jūsų interesų profilį ir parodyti jums aktualius skelbimus kitose svetainėse. Jie tiesiogiai nesaugo asmeninės informacijos, tačiau yra pagrįsti unikaliu jūsų naršyklės ir interneto įrenginio identifikavimu. Jei neleisite šių slapukų, patirsite mažiau tikslingos reklamos."
+      },
+      "unclassifiedCookiesDescriptionText": {
+        "lt": "Neklasifikuoti slapukai yra slapukai, kuriuos mes klasifikuojame kartu su atskirų slapukų teikėjais."
+      }
+    },
+    "auto": {
+      "declName": {
+        "lt": "vardas"
+      },
+      "declPath": {
+        "lt": "Kelias"
+      },
+      "declType": {
+        "lt": "Tipas"
+      },
+      "declDomain": {
+        "lt": "Domenas"
+      },
+      "declPurpose": {
+        "lt": "Paskirtis"
+      },
+      "declProvider": {
+        "lt": "Teikėjas"
+      },
+      "declRetention": {
+        "lt": "Išlaikymas"
+      },
+      "declFirstParty": {
+        "lt": "First-party"
+      },
+      "declThirdParty": {
+        "lt": "Trečias vakarėlis"
+      },
+      "declSeconds": {
+        "lt": "sekundžių"
+      },
+      "declMinutes": {
+        "lt": "minučių"
+      },
+      "declHours": {
+        "lt": "valandų"
+      },
+      "declDays": {
+        "lt": "dienų"
+      },
+      "declMonths": {
+        "lt": "mėnesių"
+      },
+      "declYears": {
+        "lt": "metų"
+      },
+      "declSession": {
+        "lt": "Sesija"
+      },
+      "cookiesDetailsText": {
+        "lt": "Slapukų informacija"
+      },
+      "preferencesPopupAlwaysAllowedText": {
+        "lt": "Visada leidžiama"
+      },
+      "submitButton": {
+        "lt": "Pateikti"
+      },
+      "submittingButton": {
+        "lt": "Pateikiama ..."
+      },
+      "cancelButton": {
+        "lt": "Atšaukti"
+      },
+      "guestsSupportInfoText": {
+        "lt": "Jei norite tęsti, prisijunkite naudodami savo kliento paskyrą."
+      },
+      "guestsSupportEmailPlaceholder": {
+        "lt": "Elektroninio pašto adresas"
+      },
+      "guestsSupportEmailValidationError": {
+        "lt": "El. Pašto adresas negalioja"
+      },
+      "guestsSupportEmailSuccessTitle": {
+        "lt": "Dėkojame už jūsų prašymą"
+      },
+      "guestsSupportEmailFailureTitle": {
+        "lt": "Iškilo problema"
+      },
+      "guestsSupportEmailSuccessMessage": {
+        "lt": "Jei esate užsiregistravęs kaip šios parduotuvės klientas, netrukus gausite el. Laišką su instrukcijomis, kaip elgtis toliau."
+      },
+      "guestsSupportEmailFailureMessage": {
+        "lt": "Jūsų prašymas nebuvo pateiktas. Bandykite dar kartą ir, jei problema išlieka, kreipkitės pagalbos į parduotuvės savininką."
+      },
+      "confirmationSuccessTitle": {
+        "lt": "Jūsų užklausa patvirtinta"
+      },
+      "confirmationFailureTitle": {
+        "lt": "Iškilo problema"
+      },
+      "confirmationSuccessMessage": {
+        "lt": "Netrukus su jumis susisieksime dėl jūsų užklausos."
+      },
+      "confirmationFailureMessage": {
+        "lt": "Jūsų užklausa nebuvo patvirtinta. Bandykite dar kartą ir, jei problema išlieka, kreipkitės pagalbos į parduotuvės savininką"
+      },
+      "consentSectionTitleText": {
+        "lt": "Jūsų sutikimas su slapukais"
+      },
+      "consentSectionNoConsentText": {
+        "lt": "Jūs nesutikote su šios svetainės slapukų politika."
+      },
+      "consentSectionConsentedText": {
+        "lt": "Jūs sutikote su šios svetainės slapukų politika"
+      },
+      "consentStatus": {
+        "lt": "Sutikimo pirmenybė"
+      },
+      "consentDate": {
+        "lt": "Sutikimo data"
+      },
+      "consentId": {
+        "lt": "Sutikimo ID"
+      },
+      "consentSectionChangeConsentActionText": {
+        "lt": "Pakeiskite sutikimo nuostatas"
+      },
+      "accessSectionGDPRRequestsActionText": {
+        "lt": "Duomenų subjekto prašymai"
+      },
+      "accessSectionAccountInfoActionText": {
+        "lt": "Asmeniniai duomenys"
+      },
+      "accessSectionOrdersRecordsActionText": {
+        "lt": "Užsakymai"
+      },
+      "accessSectionDownloadReportActionText": {
+        "lt": "Parsisiųsti viską"
+      },
+      "rectificationCommentPlaceholder": {
+        "lt": "Apibūdinkite, ką norite atnaujinti"
+      },
+      "rectificationCommentValidationError": {
+        "lt": "Reikalingas komentaras"
+      },
+      "rectificationSectionEditAccountActionText": {
+        "lt": "Prašyti atnaujinimo"
+      },
+      "erasureSectionRequestDeletionActionText": {
+        "lt": "Prašyti ištrinti asmens duomenis"
+      }
+    }
+  },
+  "library": {
+    "previewMode": false,
+    "fadeInTimeout": 0,
+    "defaultBlocked": 7,
+    "showLink": true,
+    "showImprintLink": false,
+    "enabled": true,
+    "cookie": {
+      "name": "_pandectes_gdpr",
+      "expiryDays": 365,
+      "secure": true
+    },
+    "dismissOnScroll": false,
+    "dismissOnWindowClick": false,
+    "dismissOnTimeout": false,
+    "palette": {
+      "popup": {
+        "background": "#FFFFFF",
+        "backgroundForCalculations": {
+          "a": 1,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "text": "#000000"
+      },
+      "button": {
+        "background": "transparent",
+        "backgroundForCalculations": {
+          "a": 1,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "text": "#000000",
+        "textForCalculation": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0
+        },
+        "border": "#000000"
+      }
+    },
+    "content": {
+      "href": "https:\/\/45f30c.myshopify.com\/policies\/privacy-policy",
+      "imprintHref": "\/",
+      "close": "&#10005;",
+      "target": "",
+      "logo": "<img class=\"cc-banner-logo\" height=\"40\" width=\"40\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/6960\/1876\/t\/3\/assets\/pandectes-logo.png?v=1690392258\" alt=\"Kupranugaris\" \/>"
+    },
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "compliance": {
+      "opt-both": "<div class=\"cc-compliance cc-highlight\">{{deny}}{{allow}}<\/div>"
+    },
+    "type": "opt-both",
+    "layouts": {
+      "basic": "{{logo}}{{messagelink}}{{compliance}}{{close}}"
+    },
+    "position": "top",
+    "theme": "wired",
+    "revokable": true,
+    "animateRevokable": false,
+    "revokableReset": false,
+    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0727\/6960\/1876\/t\/3\/assets\/pandectes-reopen-logo.png?v=1690392259",
+    "revokablePlacement": "bottom-left",
+    "revokableMarginHorizontal": 15,
+    "revokableMarginVertical": 15,
+    "static": false,
+    "autoAttach": true,
+    "hasTransition": true,
+    "blacklistPage": [
+      ""
+    ]
+  },
+  "geolocation": {
+    "brOnly": false,
+    "caOnly": false,
+    "euOnly": false,
+    "jpOnly": false,
+    "thOnly": false,
+    "canadaOnly": false,
+    "globalVisibility": true
+  },
+  "dsr": {
+    "guestsSupport": false,
+    "accessSectionDownloadReportAuto": false
+  },
+  "banner": {
+    "resetTs": 1690392257,
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    .pd-cp-btn{}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "customJavascript": null,
+    "showPoweredBy": false,
+    "isActive": false,
+    "implicitSavePreferences": false,
+    "cookieIcon": false,
+    "blockBots": false,
+    "showCookiesDetails": true,
+    "cookiesBlockedByDefault": "7",
+    "hasTransition": true,
+    "blockingPage": false,
+    "showOnlyLandingPage": false,
+    "leaveSiteUrl": "https:\/\/www.google.com",
+    "linkRespectStoreLang": false
+  },
+  "cookies": {
+    "0": [
+      {
+        "name": "secure_customer_sig",
+        "domain": "kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Used in connection with customer login."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Shopify store localization"
+        }
+      },
+      {
+        "name": "_cmp_a",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "24 hour(s)",
+        "expires": 24,
+        "unit": "declHours",
+        "purpose": {
+          "lt": "Used for managing customer privacy settings."
+        }
+      },
+      {
+        "name": "_tracking_consent",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Tracking preferences."
+        }
+      },
+      {
+        "name": "keep_alive",
+        "domain": "kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "lt": "Used in connection with buyer localization."
+        }
+      }
+    ],
+    "1": [
+
+    ],
+    "2": [
+      {
+        "name": "_y",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_s",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "lt": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_y",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "lt": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "lt": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
+        "purpose": {
+          "lt": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
+        "purpose": {
+          "lt": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_ga",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
+        "purpose": {
+          "lt": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_ga_Y7WW727SYF",
+        "domain": ".kupranugaris.lt",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
+        "purpose": {
+          "lt": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      }
+    ],
+    "4": [
+
+    ],
+    "8": [
+
+    ]
+  },
+  "blocker": {
+    "isActive": false,
+    "googleConsentMode": {
+      "id": "",
+      "analyticsId": "",
+      "isActive": false,
+      "adStorageCategory": 4,
+      "analyticsStorageCategory": 2,
+      "personalizationStorageCategory": 1,
+      "functionalityStorageCategory": 1,
+      "customEvent": true,
+      "securityStorageCategory": 0,
+      "redactData": true,
+      "urlPassthrough": false
+    },
+    "facebookPixel": {
+      "id": "",
+      "isActive": false,
+      "ldu": false
+    },
+    "rakuten": {
+      "isActive": false,
+      "cmp": false,
+      "ccpa": false
+    },
+    "gpcIsActive": false,
+    "defaultBlocked": 7,
+    "patterns": {
+      "whiteList": [
+
+      ],
+      "blackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      },
+      "iframesWhiteList": [
+
+      ],
+      "iframesBlackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      },
+      "beaconsWhiteList": [
+
+      ],
+      "beaconsBlackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      }
+    }
+  }
+}
