@@ -52,7 +52,7 @@
         ".banner__media.media img {background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;}"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/background1024.png",
+        "image": "shopify:\/\/shop_images\/background-image.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "top-center",
