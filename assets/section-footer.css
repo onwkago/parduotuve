@@ -11,6 +11,10 @@
   display: block;
 }
 
+.trusted-logo {
+  display:flex;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
