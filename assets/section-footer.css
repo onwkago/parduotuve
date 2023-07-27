@@ -43,6 +43,8 @@
 .footer__content-bottom {
   border-top: solid 0.1rem rgba(var(--color-foreground), 0.08);
   padding-top: 3rem;
+      display: flex;
+    flex-flow: column;
 }
 
 .footer__content-bottom:only-child {
@@ -51,7 +53,6 @@
 
 .footer__content-bottom-wrapper {
   display: flex;
-  width: 100%;
 }
 
 @media screen and (max-width: 749px) {
@@ -61,6 +62,12 @@
     padding-left: 0;
     padding-right: 0;
     row-gap: 1.5rem;
+  }
+
+  .badge-card {
+    & span {
+      margin-left:10px;
+    }
   }
 
   .footer__content-bottom-wrapper {
@@ -112,6 +119,13 @@
   .footer-block {
     display: block;
     margin-top: 0;
+  }
+
+  .badge-card {
+    & span {
+      padding:10px;
+    }
+    text-wrap: nowrap;
   }
 }
 
