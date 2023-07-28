@@ -73,9 +73,10 @@
                   id="checkout"
                   class="cart__checkout-button button"
                   name="checkout"
-                  {% if cart == empty | isDisabled() %}
+                  {% if cart == empty %}
                     disabled
                   {% endif %}
+                  disabled
                   form="cart"
                 >
                   {{ 'sections.cart.checkout' | t }}
@@ -114,7 +115,7 @@
     });
   });
 </script>
-<script src="{{ 'termsCheckbox.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'termsCheckbox.js' | asset_url }}" defer="defer"> </script>
 
 {% schema %}
 {
