@@ -30,10 +30,20 @@
             "color_scheme": "inverse",
             "link": ""
           }
+        },
+        "56f50b91-e957-4965-bb8a-a010e5eadac3": {
+          "type": "announcement",
+          "settings": {
+            "text": "20% NUOLAIDA VISOMS PREKEMS TIK ŠIĄ SAVAITĘ!",
+            "text_alignment": "center",
+            "color_scheme": "accent-2",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "56f50b91-e957-4965-bb8a-a010e5eadac3"
       ],
       "settings": {
       }
