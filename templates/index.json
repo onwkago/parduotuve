@@ -28,7 +28,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "ruigor-icon",
-        "products_to_show": 25,
+        "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
@@ -78,6 +78,18 @@
           "settings": {
             "collection": "ruigor-active"
           }
+        },
+        "ad13fae1-fd3d-4004-851f-14fbab126754": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ruigor-executive"
+          }
+        },
+        "d58690bc-8e05-4a66-a1e7-093cee1f550c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ruigor-link"
+          }
         }
       },
       "block_order": [
@@ -85,7 +97,9 @@
         "template--18900869185876__dc07a9aa-9682-4955-9d63-4ee3671eb8ea-featured_collection-3",
         "template--18900869185876__dc07a9aa-9682-4955-9d63-4ee3671eb8ea-featured_collection-1",
         "template--18900869185876__dc07a9aa-9682-4955-9d63-4ee3671eb8ea-featured_collection-2",
-        "98c6fd4c-59e8-435e-b08b-f3662b08a425"
+        "98c6fd4c-59e8-435e-b08b-f3662b08a425",
+        "ad13fae1-fd3d-4004-851f-14fbab126754",
+        "d58690bc-8e05-4a66-a1e7-093cee1f550c"
       ],
       "settings": {
         "title": "",
