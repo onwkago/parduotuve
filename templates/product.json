@@ -63,6 +63,13 @@
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
+        },
+        "765b6a94-cd9a-417d-a851-744b81ee4053": {
+          "type": "text",
+          "settings": {
+            "text": "Siuntimo laikotarpis 1 - 14 d.d.",
+            "text_style": "body"
+          }
         }
       },
       "block_order": [
@@ -75,7 +82,8 @@
         "buy_buttons",
         "description",
         "share",
-        "389efe00-0102-4619-93e9-cb69fc837326"
+        "389efe00-0102-4619-93e9-cb69fc837326",
+        "765b6a94-cd9a-417d-a851-744b81ee4053"
       ],
       "settings": {
         "enable_sticky_info": true,
