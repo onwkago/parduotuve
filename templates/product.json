@@ -22,7 +22,7 @@
             "star_size": 15,
             "text_align": "center",
             "product": "{{product}}",
-            "stars_text_empty": "No reviews"
+            "stars_text_empty": "Nėra atsiliepimų"
           }
         },
         "price": {
