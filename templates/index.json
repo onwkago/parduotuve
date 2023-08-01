@@ -37,7 +37,7 @@
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
-        "show_vendor": false,
+        "show_vendor": true,
         "show_rating": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
