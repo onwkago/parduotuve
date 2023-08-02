@@ -173,7 +173,7 @@
       },
       "14202841294620728903": {
         "type": "shopify:\/\/apps\/makecommerce-shipping-solution\/blocks\/makecommerce-shipping-snippet\/61e2c6ed-bbd6-4175-82c1-50e53eb3db6a",
-        "disabled": true,
+        "disabled": false,
         "settings": {
         }
       }
