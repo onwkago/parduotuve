@@ -26,8 +26,8 @@
         "meta_description_display": "At @[ Store_name ](shop.name) we offer @[ Product_name ](product.title) at the lowest price. Check it out now!"
       },
       "collections": {
-        "meta_title_value": "Turistinės kuprinės",
-        "meta_title_display": "Turistinės kuprinės",
+        "meta_title_value": "Turistinės kuprinės ",
+        "meta_title_display": "Turistinės kuprinės ",
         "meta_description_value": "Aukščiausios kokybės, puikaus dizaino turistinės kuprinės su 5 metų garantija!",
         "meta_description_display": "Aukščiausios kokybės, puikaus dizaino turistinės kuprinės su 5 metų garantija!"
       },
@@ -40,8 +40,8 @@
     },
     "turnOnObject": {
       "products": false,
-      "collections": true,
-      "articles": true
+      "collections": false,
+      "articles": false
     }
   },
   "pageSpeedConfig": false,
