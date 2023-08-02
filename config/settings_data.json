@@ -152,12 +152,6 @@
         "settings": {
         }
       },
-      "14202841294620728903": {
-        "type": "shopify:\/\/apps\/makecommerce-shipping-solution\/blocks\/makecommerce-shipping-snippet\/61e2c6ed-bbd6-4175-82c1-50e53eb3db6a",
-        "disabled": false,
-        "settings": {
-        }
-      },
       "15351435345818755577": {
         "type": "shopify:\/\/apps\/pandectes-gdpr-compliance\/blocks\/banner\/58c0baa2-6cc1-480c-9ea6-38d6d559556a",
         "disabled": false,
@@ -175,6 +169,12 @@
         "disabled": false,
         "settings": {
           "tpt_seo_block": "{}"
+        }
+      },
+      "14202841294620728903": {
+        "type": "shopify:\/\/apps\/makecommerce-shipping-solution\/blocks\/makecommerce-shipping-snippet\/61e2c6ed-bbd6-4175-82c1-50e53eb3db6a",
+        "disabled": true,
+        "settings": {
         }
       }
     }
