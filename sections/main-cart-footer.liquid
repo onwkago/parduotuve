@@ -18,6 +18,7 @@
           >{{ cart.note }}</textarea>
         </cart-note>
       {%- endif -%}
+
       <div class="cart__blocks">
         {% for block in section.blocks %}
           {%- case block.type -%}
@@ -57,10 +58,6 @@
                 </small>
               </div>
             {%- else -%}
-              <div>
-                <input type="checkbox" id="confirm_terms" onClick="checkTermsBox()">
-                Susipažinau ir sutinku su pirkimo taisyklėmis ir privatumo politika 
-              </div>
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
                   <button type="submit" class="cart__update-button button button--secondary" form="cart">
@@ -76,7 +73,6 @@
                   {% if cart == empty %}
                     disabled
                   {% endif %}
-                  disabled
                   form="cart"
                 >
                   {{ 'sections.cart.checkout' | t }}
@@ -90,10 +86,10 @@
               {%- endif -%}
           {%- endcase -%}
         {% endfor %}
+
         <div id="cart-errors"></div>
       </div>
     </div>
-    <div id=”mk-shipping-solution-place”></div>
   </div>
 </div>
 
@@ -106,6 +102,7 @@
 
       return msie > 0 || trident > 0;
     }
+
     if (!isIE()) return;
     const cartSubmitInput = document.createElement('input');
     cartSubmitInput.setAttribute('name', 'checkout');
@@ -116,7 +113,6 @@
     });
   });
 </script>
-<script src="{{ 'termsCheckbox.js' | asset_url }}" defer="defer"> </script>
 
 {% schema %}
 {
