@@ -176,6 +176,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "3611801286079744168": {
+        "type": "shopify:\/\/apps\/pretty-sales-popup\/blocks\/app-embed\/88670c4f-ef3e-4606-bf82-dc7fa641177f",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
