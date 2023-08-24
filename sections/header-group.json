@@ -33,6 +33,7 @@
         },
         "56f50b91-e957-4965-bb8a-a010e5eadac3": {
           "type": "announcement",
+          "disabled": true,
           "settings": {
             "text": "NUOLAIDOS IKI 25% TIK ŠIĄ SAVAITĘ!",
             "text_alignment": "center",
